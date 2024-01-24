@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<VBox fx:id="VBOX_Padre" alignment="TOP_CENTER" prefHeight="600.0" prefWidth="400.0" spacing="20.0" styleClass="pantallaTitulo" stylesheets="@../../../styleInicioSesion.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tfg_listajuegos.Controlador">
+<VBox fx:id="VBOX_Padre" alignment="TOP_CENTER" prefHeight="600.0" prefWidth="400.0" spacing="20.0" styleClass="pantallaTitulo" stylesheets="@../../../styleInicioSesion.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tfg_listajuegos.InicioSesionVentana">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" />
     </padding>
@@ -22,12 +22,12 @@
    <VBox fx:id="VBOX_Botones" alignment="TOP_CENTER" prefHeight="376.0" prefWidth="344.0">
       <children>
          <Text fill="#00a4ff" strokeType="OUTSIDE" strokeWidth="0.0" text="Eslogan" />
-         <Button id="BTN_Registrarse" fx:id="BTN_Registro" mnemonicParsing="false" prefHeight="40.0" prefWidth="260.0" styleClass="botonInicio" stylesheets="@../../../styleInicioSesion.css" text="Registrarse">
+         <Button id="BTN_Registrarse" fx:id="BTN_Registrarse" mnemonicParsing="false" onAction="#cambiarVentanaRegistro" prefHeight="40.0" prefWidth="260.0" styleClass="botonInicio" stylesheets="@../../../styleInicioSesion.css" text="Registrarse">
             <VBox.margin>
                <Insets bottom="20.0" top="20.0" />
             </VBox.margin>
          </Button>
-          <Button fx:id="BTN_IniciarSesion" prefHeight="40.0" prefWidth="260.0" styleClass="botonRegistro" stylesheets="@../../../styleInicioSesion.css" text="Iniciar sesion">
+          <Button id="BTN_IniciarSesion" fx:id="BTN_IniciarSesion" prefHeight="40.0" prefWidth="260.0" styleClass="botonRegistro" stylesheets="@../../../styleInicioSesion.css" text="Iniciar sesion">
             <VBox.margin>
                <Insets />
             </VBox.margin>
