@@ -1,0 +1,28 @@
+.pantallaTitulo {
+    -fx-background-color: linear-gradient(to bottom, #001a33, #00bfff); /*orange to yellow*/
+    -fx-border-color: linear-gradient(to bottom, #00bfff, #001a33); /*black*/
+    -fx-border-width: 2px;
+}
+.botonInicio {
+    -fx-background-color: #00bfff; /* Azul claro */
+    -fx-text-fill: #ffffff; /* Color del texto blanco */
+    -fx-font-weight: bold; /* Fuente en negrita */
+    -fx-font-size: 16px; /* Tamaño de la fuente */
+    -fx-border-color: #000000; /* Negro */
+    -fx-background-radius: 15; /* Radio para las esquinas del fondo del botón */
+    -fx-border-radius: 15; /* Radio para las esquinas del borde del botón */
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0); /* Sombra alrededor del botón */
+}
+.botonRegistro {
+    -fx-background-color: #001a33; /* Negro azulado */
+    -fx-text-fill: #00bfff; /* Color del texto blanco */
+    -fx-font-weight: bold; /* Fuente en negrita */
+    -fx-font-size: 16px; /* Tamaño de la fuente */
+    -fx-border-color: #00bfff; /* Negro */
+    -fx-border-width: 1px;
+    -fx-background-radius: 15; /* Radio para las esquinas del fondo del botón */
+    -fx-border-radius: 15; /* Radio para las esquinas del borde del botón */
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0); /* Sombra alrededor del botón */
+}
+
+

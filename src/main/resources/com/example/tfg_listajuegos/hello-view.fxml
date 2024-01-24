@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="VBOX_Padre" alignment="TOP_CENTER" prefHeight="600.0" prefWidth="400.0" spacing="20.0" styleClass="pantallaTitulo" stylesheets="@../../../styleInicioSesion.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tfg_listajuegos.Controlador">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" />
+    </padding>
+   <ImageView fx:id="PNG_Logo" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../IMG/PNG-LogoGamibi.png" />
+      </image>
+      <VBox.margin>
+         <Insets top="30.0" />
+      </VBox.margin>
+   </ImageView>
+   <VBox fx:id="VBOX_Botones" alignment="TOP_CENTER" prefHeight="376.0" prefWidth="344.0">
+      <children>
+         <Text fill="#00a4ff" strokeType="OUTSIDE" strokeWidth="0.0" text="Eslogan" />
+         <Button id="BTN_Registrarse" fx:id="BTN_Registro" mnemonicParsing="false" prefHeight="40.0" prefWidth="260.0" styleClass="botonInicio" stylesheets="@../../../styleInicioSesion.css" text="Registrarse">
+            <VBox.margin>
+               <Insets bottom="20.0" top="20.0" />
+            </VBox.margin>
+         </Button>
+          <Button fx:id="BTN_IniciarSesion" prefHeight="40.0" prefWidth="260.0" styleClass="botonRegistro" stylesheets="@../../../styleInicioSesion.css" text="Iniciar sesion">
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+         </Button>
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Politicas etc">
+            <VBox.margin>
+               <Insets top="50.0" />
+            </VBox.margin></Text>
+      </children>
+   </VBox>
+</VBox>

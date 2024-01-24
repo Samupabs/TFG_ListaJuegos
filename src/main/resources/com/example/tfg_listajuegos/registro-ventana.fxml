@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="VBOX_Padre" alignment="TOP_CENTER" prefHeight="600.0" prefWidth="400.0" spacing="20.0" styleClass="pantallaTitulo" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tfg_listajuegos.Controlador">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" />
+   </padding>
+   <children>
+      <ImageView fx:id="PNG_Logo" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../IMG/PNG-LogoGamibi.png" />
+         </image>
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin>
+      </ImageView>
+      <VBox fx:id="VBOX_Botones" prefHeight="150.0" prefWidth="356.0">
+         <children>
+            <Text fx:id="TXT_Nombre" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txtRegistro" text="Nombre" wrappingWidth="355.84571075439453">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <TextField fx:id="TXTF_Nombre" prefHeight="30.0" promptText="\@albert609" styleClass="txtfieldRegistro">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </TextField>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txtRegistro" text="Text">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <TextField promptText="contraseña" styleClass="txtfieldRegistro" />
+            <Text fx:id="TXT_Mail" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txtRegistro" text="Mail">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </Text>
+            <TextField fx:id="TXTF_Mail" prefHeight="30.0" promptText="usuarioEjemplo@gmail.com" styleClass="txtfieldRegistro">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="186.0" styleClass="botonInicio" text="Siguiente">
+               <VBox.margin>
+                  <Insets left="80.0" top="40.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@../../../styleInicioSesion.css" />
+      <URL value="@../../../styleRegistro.css" />
+   </stylesheets>
+</VBox>

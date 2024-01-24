@@ -1,0 +1,11 @@
+.txtRegistro {
+    -fx-text-fill: #ffffff; /* Color del texto blanco */
+    -fx-font-size: 16px; /* Tamaño de la fuente */
+}
+.txtfieldRegistro {
+    -fx-border-color: #00bfff; /* Negro */
+    -fx-background-color: #001a33; /* Amarillo a naranja */
+    -fx-background-radius: 10; /* Radio para las esquinas del fondo del botón */
+    -fx-border-radius: 10; /* Radio para las esquinas del borde del botón */
+
+}
